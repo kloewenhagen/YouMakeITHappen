@@ -16,8 +16,6 @@ body {
   width: 80%;
 }
 
-header { background-color:#337A9C; }
-
 h1 {
   background-image: url(../images/logo.png);
   background-position: left;
@@ -63,8 +61,8 @@ main {
   padding: 20px;
   display: block;
   background-color: white;
-  margin-left: 280x;
-  min-height: 450px;
+  margin-left: 260px;
+  min-height: 430px;
 }
 
 
@@ -77,7 +75,10 @@ main article {
   padding-right: 5%;
 }
 
-h2 {  font-family: Georgia, "Times New Roman", serif;  }
+h2 {  
+  font-family: Georgia, "Times New Roman", serif;
+  color: #236300;
+}
 
 h3 {
   background-color: #E6D6A9;
@@ -86,7 +87,7 @@ h3 {
 
 
 footer {
-  background-color: #337A9C;
+  background-color: #023148;
   color: white;
   font-size: .60em;
   font-style: italic;
@@ -156,7 +157,6 @@ footer a:hover, footer a:focus { color: #F5F5DC; }
     display: inline-block;
     font-size: 120%;
     margin: 1%;
-
     text-align: center;
     width: 5em;
   }
