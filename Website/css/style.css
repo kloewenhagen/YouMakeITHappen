@@ -29,11 +29,13 @@ h1 {
 }
 
 nav {
-  float: left;
+  float: left;  
+  background-color: #023148;
   font-weight: bold;
   padding: 10px;
   text-align: center;
-  width: 260px;
+  width: 240px;
+  min-height: 450px;
 }
 
 nav ul {
@@ -44,18 +46,25 @@ nav ul {
 
 nav a{ text-decoration: none; }
 
-nav a:link { color: #236300; }
+nav a:link { color: white; }
 
-nav a:visited { color: #236300; }
+nav a:visited { color: white; }
 
 nav a:hover, nav a:focus { color: #E1E110; }
+
+.Scripture {
+  border: 1px solid #F7F748;
+  border-radius: 5px;
+  color: white;
+  height: 60px;
+}
 
 main {
   padding: 20px;
   display: block;
   background-color: white;
-  margin-left: 260x;
-  min-height: 430px;
+  margin-left: 280x;
+  min-height: 450px;
 }
 
 
@@ -124,8 +133,8 @@ footer a:hover, footer a:focus { color: #F5F5DC; }
 
   nav {
     float: none;
-    padding: 0;
     width: auto;
+    min-height: 0px;
   }
 
   nav ul { text-align: center; }
@@ -147,7 +156,7 @@ footer a:hover, footer a:focus { color: #F5F5DC; }
     display: inline-block;
     font-size: 120%;
     margin: 1%;
-    padding: 2.5%;
+
     text-align: center;
     width: 5em;
   }
